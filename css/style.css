@@ -1,0 +1,74 @@
+/******************************************
+/* CSS
+/*******************************************/
+
+/* Box Model Hack */
+*{
+  box-sizing: border-box;
+}
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+
+body {
+  min-height: 100vh;
+  width: 100%;
+  background-image: linear-gradient(rgba(4, 9, 30, 0.7),rgba(4, 9, 30, 0.7)),url("../img/yess.jpeg");
+  background-position: center;
+  background-size: cover;
+  position: relative;
+  color: #fff;
+}
+
+
+h2{
+  text-align: center;
+  font-size: 500;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  padding: 5px 0;
+  margin-top: 3%;
+  color: white;
+}
+
+
+.center{
+  background: rgba(4, 9, 30, 0.7);
+  border-radius: 10px;
+  padding: 20px 2px;
+  box-sizing: border-box;
+  transition: 0.5s;
+  /*  */
+  text-align: center;
+  margin: auto;
+  width: 300px;
+  margin-top: 3%;
+  height: 300px;
+}
+
+.center input{
+  display: block;
+  margin: 10px auto;
+  border-radius: 2px;
+}
+
+
+.nowOr{
+  display: block;
+  text-decoration: none;
+  text-align: center;
+  color: white;
+  border: 1px solid rgb(190, 188, 188);
+  padding: 5px 2px;
+  background: rgba(4, 9, 30, 0.7);
+  position: relative;
+  border-radius: 4px;
+  width: 65px;
+  margin: 3% auto 0;
+}
+
+
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
