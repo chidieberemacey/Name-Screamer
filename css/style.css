@@ -14,7 +14,7 @@
 body {
   min-height: 100vh;
   width: 100%;
-  background-image: linear-gradient(#06700258,rgba(6, 112, 2, 0.267)),url("../img/yess.jpeg");
+  background-image: linear-gradient(#061e27c6,#061e27a6),url("../img/yess.jpeg");
   background-position: center;
   background-size: cover;
   position: relative;
@@ -23,11 +23,12 @@ body {
 }
 /* #067002 */
 .container{
-  background: #055702;
+  background: rgb(3, 35, 59);
   width: 400px;
   margin: auto;
   padding: 3rem;
   border-radius: 1rem;
+  border: 2px solid rgb(71, 158, 224);
 }
 
 h2{
@@ -43,7 +44,7 @@ h2{
   width: 100%;
   margin: 1rem 0;
   padding: .5rem;
-  border: 2px solid #24C96E;
+  border: 2px solid rgb(71, 158, 224);
   border-radius: 200px;
   background: white;
   outline: none;
@@ -57,7 +58,7 @@ h2{
   color: white;
   border: 2px solid white;
   padding: 5px 2px;
-  background: #24C96E;
+  background: rgb(71, 158, 224);
   position: relative;
   border-radius: 5px;
   width: 100px;
