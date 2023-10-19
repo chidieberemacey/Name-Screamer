@@ -14,7 +14,7 @@
 body {
   min-height: 100vh;
   width: 100%;
-  background-image: linear-gradient(#061e27c6,#061e27a6),url("../img/yess.jpeg");
+  background-image: linear-gradient(#061e27c6,#071d25a6),url("../img/yess.jpeg");
   background-position: center;
   background-size: cover;
   position: relative;
